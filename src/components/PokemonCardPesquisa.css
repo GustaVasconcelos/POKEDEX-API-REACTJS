@@ -1,0 +1,106 @@
+.Card_pesquisa{
+    display: flex;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+    width: 95%;
+    padding: 20px 0;
+    max-height: 200px;
+    margin: 1%;
+    background-color: #222;
+    border-radius: 10px;
+}
+
+.Card_container_title{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.Card_pesquisa_title{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 100%;
+}
+
+.Card_pesquisa_title img{
+    width: 100px;
+    height: 100px;
+}
+
+.Card_container_infos{
+    display: flex;
+    height: 100%;
+    width: 60%;
+}
+
+.Card_infos_ability{
+    
+    width: 40%;
+    display: flex;
+    height: 100%;
+    max-height: 200px;
+    align-items: center;
+    flex-direction: column;
+    margin-inline: 30px;
+}
+
+.Card_infos_moves{
+    
+    width: 60%;
+    height: 100%;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.Card_infos_moves_details{
+    width: 100%;
+    overflow-y: auto;
+    
+}
+
+.Card_infos_moves_details::-webkit-scrollbar {
+    width: 10px;               /* width of the entire scrollbar */
+    
+    
+}
+
+
+.Card_infos_moves_details::-webkit-scrollbar-thumb {
+    background-color: #ef5350;;    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+}
+
+@media (max-width:600px){
+
+    .Card_pesquisa{
+
+        width: 98%;
+
+    }
+
+    .Card_pesquisa_title img{
+        width: 70px;
+        height: 70px;
+    }
+
+    .Card_container_title h3{
+        font-size: 15px;
+    }
+
+    .Card_infos_ability{
+    
+        width: 40%;
+
+        margin-inline: 8px;
+    }
+    
+}

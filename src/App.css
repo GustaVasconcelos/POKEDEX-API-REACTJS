@@ -1,0 +1,31 @@
+.container_botoes{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.input_submit{
+    border-radius: 10px;
+    padding: 10px;
+    border: none;
+    background-color: #222;
+    color: #fff;
+    cursor: pointer;
+}
+h1{
+    color: #222;
+}
+p,h3{
+    color: #fff;
+}
+.input_pesquisa{
+    padding: 10px 20px;
+    margin-inline: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: #222;
+    color: #fff;
+    outline-color: #ff0000;
+    font-weight: bold;
+}
+

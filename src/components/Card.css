@@ -1,0 +1,39 @@
+.Card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 30%;
+    margin: 1%;
+    background-color: #222;
+    border-radius: 10px;
+    
+}
+
+.Card p{
+    color: #fff;
+    text-align: center;
+}
+
+.pokemon_title{
+    display: flex;
+    justify-content: space-around;
+}
+
+.pokemon_title img{
+    width: 80px;
+    height: 80px;
+}
+
+.pokemon_title p{
+    font-size: 16px;
+}
+
+@media (max-width:600px){
+
+    .pokemon_title{
+        display: block;
+        
+    }
+
+}

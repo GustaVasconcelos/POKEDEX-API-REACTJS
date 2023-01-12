@@ -1,0 +1,25 @@
+.Pokemons_container{
+    display: inline-flex;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    width: 95%;
+    height: 55%;
+    padding: 10px;
+    justify-content: center;
+    overflow-y: auto;
+    align-items: center;
+    justify-content: center;
+    background-color: #22222230;
+}
+
+.Pokemons_container::-webkit-scrollbar {
+    width: 10px;               /* width of the entire scrollbar */
+    
+    
+}
+
+
+.Pokemons_container::-webkit-scrollbar-thumb {
+    background-color: #ef5350;;    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+}

@@ -1,0 +1,24 @@
+.Pokemon_pesquisa{
+    height:40%;
+    width: 95%;
+    background-color: #22222230;
+    border-radius: 15px;
+    box-sizing: border-box;
+    padding: 20px;
+    margin-bottom: 2%;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    flex-direction: column;
+}
+
+@media (max-width:600px){
+
+    .Pokemon_pesquisa{
+        
+        width: 98%;
+
+        padding: 0px;
+
+    }
+}
